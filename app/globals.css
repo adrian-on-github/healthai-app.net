@@ -15,6 +15,17 @@ body {
   .flex-between {
     @apply flex justify-center items-center;
   }
+  .animate-shimmer {
+    animation: shimmer 2s linear infinite;
+  }
+  @keyframes shimmer {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -200% 0;
+    }
+  }
 }
 
 :root {
@@ -219,14 +230,5 @@ body {
       bottom: 50%;
       right: 25%;
     }
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
   }
 }
