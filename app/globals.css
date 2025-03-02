@@ -15,6 +15,12 @@ body {
   .flex-between {
     @apply flex justify-center items-center;
   }
+  .flex-start {
+    @apply flex justify-start items-center;
+  }
+  .flex-c {
+    @apply flex flex-col;
+  }
   .animate-shimmer {
     animation: shimmer 2s linear infinite;
   }

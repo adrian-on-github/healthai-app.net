@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <section className="">
         <Navbar />
-        {/* <HeroSection /> */}
+        <HeroSection />
         {/* <BentoGrid /> */}
       </section>
     </>
