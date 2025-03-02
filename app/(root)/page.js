@@ -1,3 +1,11 @@
+import HeroSection from "@/components/ui/HeroSection";
+
 export default function Home() {
-  return <div className="text-30">Hello World</div>;
+  return (
+    <>
+      <section className="">
+        <HeroSection />
+      </section>
+    </>
+  );
 }
