@@ -16,7 +16,7 @@ body {
     @apply flex justify-center items-center;
   }
   .flex-start {
-    @apply flex justify-start items-center;
+    @apply flex justify-start items-start;
   }
   .flex-c {
     @apply flex flex-col;
