@@ -52,7 +52,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="flex justify-between">
-        <section className="flex-start px-20 pb-20 pt-16">
+        <section className="flex-start pt-16">
           <div className="flex-c">
             <div className="text-5xl font-semibold">
               Improve your health in weeks,{" "}
