@@ -7,10 +7,13 @@ import { AnimatedListDemo } from "@/components/ui/AnimatedList";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <div className="absolute top-1 right-70">
-        <AnimatedListDemo />
+      <div>
+        <Navbar />
+        <div className="absolute top-1 right-80 z-50">
+          <AnimatedListDemo />
+        </div>
       </div>
+
       <section className="pt-[6vh] px-20 pb-20">
         <HeroSection />
       </section>

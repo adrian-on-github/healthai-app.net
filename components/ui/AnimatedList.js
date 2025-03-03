@@ -5,16 +5,32 @@ import { AnimatedList } from "../magicui/animated-list";
 
 let notifications = [
   {
-    name: "Payment received",
-    description: "Magic UI",
+    name: "Feeling well today?",
+    description: "HealthAI",
+    time: "22m ago",
+
+    icon: "❤️",
+    color: "oklch(0.808 0.114 19.571)",
+  },
+  {
+    name: "Your daily Analyses is ready.",
+    description: "HealthAI",
     time: "15m ago",
 
-    icon: "💸",
-    color: "#00C9A7",
+    icon: "📈",
+    color: "oklch(0.785 0.115 274.713)",
+  },
+  {
+    name: "7.089steps/10.000steps",
+    description: "HealthAI",
+    time: "3m ago",
+
+    icon: "🏃",
+    color: "oklch(0.871 0.15 154.449)",
   },
 ];
 
-notifications = Array.from({ length: 4 }, () => notifications).flat();
+notifications = Array.from({ length: 1 }, () => notifications).flat();
 
 const Notification = ({ name, description, icon, color, time }) => {
   return (
