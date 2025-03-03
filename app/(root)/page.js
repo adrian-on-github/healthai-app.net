@@ -1,14 +1,12 @@
-import BentoGrid from "@/components/ui/BentoGrid";
 import HeroSection from "@/components/ui/HeroSection";
 import Navbar from "@/components/ui/Navbar";
 
 export default function Home() {
   return (
     <>
-      <section className="">
-        <Navbar />
+      <Navbar />
+      <section className="flex-center pt-[6vh]">
         <HeroSection />
-        {/* <BentoGrid /> */}
       </section>
     </>
   );
