@@ -74,7 +74,7 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="mt-6">
+            <div className="mt-8">
               <div className="flex justify-center items-start flex-col">
                 <AvatarCircles avatarUrls={avatars} />
                 <div className="flex-row flex gap-x-1">

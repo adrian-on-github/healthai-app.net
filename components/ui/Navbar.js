@@ -7,7 +7,7 @@ import { ChevronRightIcon } from "lucide-react";
 const Navbar = () => {
   return (
     <>
-      <nav className="p-4 flex-row bg-transparent backdrop-blur-2xl">
+      <nav className="p-4 flex-row bg-transparent backdrop-blur-2xl sticky top-0">
         <div className="px-2">
           <div className="flex justify-between items-center">
             {/* Logo */}
