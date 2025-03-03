@@ -67,11 +67,10 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="mt-3 flex-c">
-              <p className="text-neutral-700 text-lg pr-280 font-medium">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam. Lorem ipsum dolor sit amet, consetetur sadipscing
-                elitr, sed diam
+              <p className="text-neutral-700 text-lg font-medium">
+                {`Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna`}
+                <br />
+                {`aliquyam. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam`}
               </p>
             </div>
 
