@@ -30,7 +30,7 @@ let notifications = [
   },
 ];
 
-notifications = Array.from({ length: 100 }, () => notifications).flat();
+notifications = Array.from({ length: 1000 }, () => notifications).flat();
 
 const Notification = ({ name, description, icon, color, time }) => {
   return (

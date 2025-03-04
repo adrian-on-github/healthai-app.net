@@ -15,7 +15,7 @@ const Testimonials = () => {
             href="https://apps.apple.com/app/id6702024061?action=write-review"
             target="_blank"
           >
-            <p className="text-muted-foreground font-medium mt-3 text-center text-lg italic underline">
+            <p className="text-muted-foreground font-medium mt-3 text-center text-base lg:text-lg italic underline">
               Already tried to find your own rating?
             </p>
           </Link>
