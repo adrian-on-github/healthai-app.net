@@ -22,20 +22,6 @@ const Navbar = () => {
                 <h1 className="text-2xl font-semibold">HealthAI</h1>
               </div>
             </div>
-            {/* Button */}
-            <div className="mx-9 gap-x-6 flex flex-row items-center justify-end">
-              <Link href="#">
-                <p className="text-lg text-gray-700 font-medium">Features</p>
-              </Link>
-              <Link href="#">
-                <p className="text-lg text-gray-700 font-medium">
-                  Testimonials
-                </p>
-              </Link>
-              <Link href="#">
-                <p className="text-lg text-gray-700 font-medium">FAQ</p>
-              </Link>
-            </div>
           </div>
         </div>
       </nav>

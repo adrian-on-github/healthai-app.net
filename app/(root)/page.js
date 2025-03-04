@@ -4,6 +4,7 @@ import Features from "@/components/ui/Features";
 import FeaturedOn from "@/components/ui/FeaturedOn";
 import Easy from "@/components/ui/Easy";
 import BentoDemo from "@/components/ui/BentoGrid";
+import Footer from "@/components/ui/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Features />
       </div>
       <BentoDemo />
+      <Footer />
     </>
   );
 }

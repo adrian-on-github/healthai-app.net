@@ -74,7 +74,11 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-5">
+              <PromotionButtons />
+            </div>
+
+            <div className="mt-9">
               <div className="flex justify-center items-start flex-col">
                 <AvatarCircles avatarUrls={avatars} />
                 <div className="flex-row flex gap-x-1">
@@ -89,9 +93,6 @@ const HeroSection = () => {
             </div>
           </div>
         </section>
-      </div>
-      <div className="mt-5">
-        <PromotionButtons />
       </div>
     </>
   );

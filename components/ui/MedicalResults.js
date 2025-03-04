@@ -21,9 +21,9 @@ const medical = [
     result: "No broken bones or serious damage evident.",
   },
   {
-    name: "CT-Scan",
-    status: "negative",
-    result: "No evidence of tumors, bleeding or other damage.",
+    name: "Allergies",
+    status: "positive",
+    result: "House dust mites & pollen detected",
   },
   {
     name: "HIV Test",
@@ -35,18 +35,12 @@ const medical = [
     status: "normal",
     result: "450 ng/dL",
   },
-  {
-    name: "Allergies",
-    status: "positive",
-    result: "House dust mites & pollen detected",
-  },
 ];
 
 export default function MedicalResults({ className }) {
   return (
     <div className={className}>
       <Table>
-        <TableCaption>A list of your last medical results.</TableCaption>
         <TableHeader>
           <TableRow>
             <TableHead className="w-[100px]">Name</TableHead>
