@@ -70,10 +70,10 @@ export function AnimatedBeamMultipleOutputDemo({ className }) {
             <BicepsFlexed />
           </Circle>
           <Circle ref={div4Ref}>
-            <Apple />
+            <Stethoscope />
           </Circle>
           <Circle ref={div5Ref}>
-            <Stethoscope />
+            <Apple />
           </Circle>
         </div>
       </div>
