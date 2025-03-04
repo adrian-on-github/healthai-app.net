@@ -1,8 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import icon from "@/app/assets/images/icon.png";
-import { AnimatedSubscribeButton } from "../magicui/animated-subscribe-button";
-import { ChevronRightIcon } from "lucide-react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -24,13 +23,18 @@ const Navbar = () => {
               </div>
             </div>
             {/* Button */}
-            <div>
-              <AnimatedSubscribeButton>
-                <span className="group inline-flex items-center">
-                  Download HealthAI
-                  <ChevronRightIcon className="ml-1 size-4 transition-transform duration-300 group-hover:translate-x-1" />
-                </span>
-              </AnimatedSubscribeButton>
+            <div className="mx-9 gap-x-6 flex flex-row items-center justify-end">
+              <Link href="#">
+                <p className="text-lg text-gray-700 font-medium">Features</p>
+              </Link>
+              <Link href="#">
+                <p className="text-lg text-gray-700 font-medium">
+                  Testimonials
+                </p>
+              </Link>
+              <Link href="#">
+                <p className="text-lg text-gray-700 font-medium">FAQ</p>
+              </Link>
             </div>
           </div>
         </div>

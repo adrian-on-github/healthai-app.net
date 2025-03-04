@@ -1,6 +1,6 @@
 import React from "react";
 import { AvatarCircles } from "../magicui/avatar-circles";
-import { TweetCard } from "../magicui/tweet";
+import PromotionButtons from "./PromotionButtons";
 
 const HeroSection = () => {
   const avatars = [
@@ -89,6 +89,9 @@ const HeroSection = () => {
             </div>
           </div>
         </section>
+      </div>
+      <div className="mt-5">
+        <PromotionButtons />
       </div>
     </>
   );

@@ -44,7 +44,7 @@ const Features = () => {
               <h1 className="text-3xl text-green-600 font-medium">
                 Your health with HealthAI
               </h1>
-              <div className="rounded-full p-1 items-center justify-center bg-green-400 h-7 mx-1 mt-0.5">
+              <div className="rounded-full p-1 items-center justify-center bg-green-400 h-7 mx-1 mt-0.4">
                 <Check className="text-green-600" size={20} />
               </div>
             </div>
@@ -68,7 +68,7 @@ const Features = () => {
 const pro = [
   {
     id: 0,
-    text: "A lot of energy",
+    text: "Reminder for more energy",
   },
   {
     id: 1,
@@ -80,7 +80,7 @@ const pro = [
   },
   {
     id: 3,
-    text: "Analyse your health everyday",
+    text: "Analyse your health anytime",
   },
 ];
 
