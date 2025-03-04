@@ -6,17 +6,17 @@ const Features = () => {
     <>
       <div className="flex-center">
         <div className="mt-9">
-          <h1 className="text-5xl font-medium text-center">
+          <h1 className="text-4xl lg:text-5xl font-medium text-center">
             Most people chasing dreams.
           </h1>
-          <h1 className="text-5xl font-medium text-center mt-3">
+          <h1 className="text-4xl lg:text-5xl font-medium text-center mt-3">
             The perfect health{" "}
             <span className="italic font-semibold">should</span> be a dream
           </h1>
         </div>
       </div>
-      <div className="flex items-center justify-between w-full lg:px-72 mt-21">
-        <section className="border-3 border-red-400/50 rounded-3xl py-6 px-8 bg-red-500/30 min-h-80 min-w-140">
+      <div className="flex items-center justify-between w-full lg:px-72 mt-21 flex-col lg:flex-row">
+        <section className="border-3 border-red-400/50 rounded-3xl py-6 px-8 bg-red-500/30 min-h-80 min-w-140 my-2">
           <div className="flex flex-col">
             <div className="flex flex-row gap-x-1 justify-start">
               <h1 className="text-3xl text-red-500 font-medium">
@@ -38,7 +38,7 @@ const Features = () => {
             </ul>
           </div>
         </section>
-        <section className="border-3 border-green-400/50 rounded-3xl py-6 px-8 bg-green-500/30 min-h-80 min-w-140">
+        <section className="border-3 border-green-400/50 rounded-3xl py-6 px-8 bg-green-500/30 min-h-80 min-w-140 my-2">
           <div className="flex flex-col">
             <div className="flex flex-row gap-x-1 justify-start">
               <h1 className="text-3xl text-green-600 font-medium">

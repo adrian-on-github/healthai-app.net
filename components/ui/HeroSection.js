@@ -52,16 +52,16 @@ const HeroSection = () => {
   return (
     <>
       <div className="flex justify-between">
-        <section className="flex-start pt-16">
-          <div className="flex-c">
-            <div className="text-5xl font-semibold">
+        <section className="flex-start lg:pt-16 pt-4">
+          <div className="flex-c text-center lg:text-start">
+            <div className="text-4xl lg:text-5xl font-semibold">
               Improve your health in weeks,{" "}
               <span className="text-red-500 font-semibold line-through italic">
                 not months.
               </span>
             </div>
-            <div className="flex justify-start mt-2">
-              <div className="text-2xl font-regular text-neutral-700 italic">
+            <div className="flex justify-center lg:justify-start mt-2">
+              <div className="text-lg lg:text-2xl font-regular text-neutral-700 italic ">
                 Improving your health wasn't easier{" "}
                 <span className="underline">until now.</span>
               </div>
@@ -74,12 +74,12 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="mt-5">
+            <div className="mt-5 flex justify-center lg:justify-start">
               <PromotionButtons />
             </div>
 
             <div className="mt-9">
-              <div className="flex justify-center items-start flex-col">
+              <div className="flex justify-center items-center flex-col lg:items-start">
                 <AvatarCircles avatarUrls={avatars} />
                 <div className="flex-row flex gap-x-1">
                   <span className="flex-start mt-2 font-semibold text-lg text-center italic">

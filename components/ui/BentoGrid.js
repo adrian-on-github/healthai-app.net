@@ -13,7 +13,7 @@ const features = [
       "Medical results are important. For the young and the old ones.",
     className: "col-span-3 lg:col-span-1",
     background: (
-      <MedicalResults className="absolute right-5 h-[300px] transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+      <MedicalResults className="absolute right-5 h-[300px] transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)]" />
     ),
   },
   {
@@ -49,6 +49,13 @@ const features = [
 export default function BentoDemo() {
   return (
     <>
+      <div className="mt-20">
+        <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap lg:text-nowrap">
+          🚫Instead of trying to do it{" "}
+          <span className="font-semibold italic">yourself</span>, make life{" "}
+          <span className="font-semibold italic">easy</span> for yourself
+        </h1>
+      </div>
       <BentoGrid className="p-12">
         {features.map((feature, idx) => (
           <BentoCard key={idx} {...feature} />
