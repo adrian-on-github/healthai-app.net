@@ -83,7 +83,7 @@ const HeroSection = () => {
                 <AvatarCircles avatarUrls={avatars} />
                 <div className="flex-row flex gap-x-1">
                   <span className="flex-start mt-2 font-semibold text-lg text-center italic">
-                    2,794
+                    5000+
                   </span>
                   <span className="flex-start mt-2 font-regular text-lg text-center">
                     are already improving

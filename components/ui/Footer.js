@@ -13,18 +13,21 @@ export default function Footer() {
           </div>
           <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm mt-4 lg:mt-0">
             <Link
+              target="_blank"
               href="/privacy-policy"
               className="text-muted-foreground transition-colors duration-300 font-medium"
             >
               Privacy Policy
             </Link>
             <Link
+              target="_blank"
               href="/terms-of-service"
               className="text-muted-foreground transition-colors duration-300 font-medium"
             >
               Terms of Service
             </Link>
             <Link
+              target="_blank"
               href="/impressum"
               className="text-muted-foreground transition-colors duration-300 font-medium"
             >

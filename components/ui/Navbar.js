@@ -6,7 +6,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <nav className="p-4 flex-row bg-transparent backdrop-blur-2xl sticky top-0">
+      <nav className="p-4 flex-row bg-transparent backdrop-blur-2xl sticky top-0 z-100">
         <div className="px-2">
           <div className="flex justify-between items-center">
             {/* Logo */}
