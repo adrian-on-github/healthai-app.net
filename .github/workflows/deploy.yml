@@ -1,0 +1,25 @@
+name: Deploy to Hostinger
+
+on:
+  push:
+    branches:
+      - main  # Setze hier deinen Branch-Namen (z.B. main oder master)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Schritt 1: Checkout des Repository-Codes
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Schritt 2: Setze FTP-Zugangsdaten (ersetze durch deine Werte)
+      - name: Deploy to Hostinger via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.1.0
+        with:
+          server: ${{ secrets.FTP_HOST }}  # Hostname deiner Website
+          username: ${{ secrets.FTP_USERNAME }}  # FTP-Benutzername
+          password: ${{ secrets.FTP_PASSWORD }}  # FTP-Passwort
+          local-dir: ./public  # Hier dein Build-Ordner (z.B. ./out bei Next.js oder ./dist)
+          remote-dir: /public_html  # Zielverzeichnis auf dem Server
