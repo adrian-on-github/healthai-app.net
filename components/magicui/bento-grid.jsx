@@ -22,6 +22,7 @@ export async function BentoCard({
   description,
   href,
   cta,
+  bg,
   ...props
 }) {
   return (
@@ -36,7 +37,7 @@ export async function BentoCard({
       {...props}
     >
       <div>{background}</div>
-      <div className="pointer-events-none z-10 flex flex-col gap-1 p-6">
+      <div className={`pointer-events-none z-10 flex flex-col gap-1 p-6 ${bg}`}>
         <Icon className="h-12 w-12 origin-left transform-gpu text-neutral-700" />
         <h3 className="text-xl font-semibold text-neutral-700 dark:text-neutral-300">
           {name}

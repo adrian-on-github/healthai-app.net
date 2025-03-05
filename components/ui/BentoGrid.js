@@ -15,6 +15,7 @@ const features = [
     background: (
       <MedicalResults className="absolute right-5 h-[300px] transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)]" />
     ),
+    bg: "bg-transparent backdrop-blur-sm",
   },
   {
     Icon: Share2Icon,
@@ -43,6 +44,7 @@ const features = [
     background: (
       <AnimatedListDemo className="absolute right-2 top-4 h-[300px] w-full scale-75 border-none transition-all duration-300 ease-out group-hover:scale-90" />
     ),
+    bg: "bg-transparent backdrop-blur-sm",
   },
 ];
 
@@ -50,7 +52,7 @@ export default function BentoDemo() {
   return (
     <>
       <div className="mt-15 lg:mt-20">
-        <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap lg:text-nowrap">
+        <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap lg:text-nowrap md:mx-8 mx-0">
           🚫 Instead of trying to improve
           <span className="font-semibold italic">yourself</span>, we do the work
           for you
