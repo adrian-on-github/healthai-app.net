@@ -62,7 +62,7 @@ const HeroSection = () => {
             </div>
             <div className="flex justify-center lg:justify-start mt-2">
               <div className="text-lg lg:text-2xl font-regular text-neutral-700 italic ">
-                Improving your health wasn't easier{" "}
+                {`  Improving your health wasn't easier`}{" "}
                 <span className="underline">until now.</span>
               </div>
             </div>
