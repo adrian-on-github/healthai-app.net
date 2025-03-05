@@ -1,12 +1,6 @@
 import { Poppins } from "next/font/google";
 import "@/app/globals.css";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
-});
-
 export const metadata = {
   metadataBase: new URL("https://healthai-app.net/privacypolicy"),
   title: "Privacy Policy - HealthAI",
@@ -23,9 +17,5 @@ export const metadata = {
 };
 
 export default function Layout({ children }) {
-  return (
-    <html lang="en">
-      <body className={`${poppins.variable} antialiased`}>{children}</body>
-    </html>
-  );
+  return <div>{children}</div>;
 }

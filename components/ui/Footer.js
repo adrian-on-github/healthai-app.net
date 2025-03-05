@@ -12,20 +12,18 @@ export default function Footer() {
             </p>
           </div>
           <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm mt-6 lg:mt-0">
-            <a
-              target="_blank"
+            <Link
               href="/privacypolicy"
               className="text-muted-foreground transition-colors duration-300 font-medium"
             >
               Privacy Policy
-            </a>
-            <a
-              target="_blank"
-              href="/termsofservice"
+            </Link>
+            <Link
+              href="/terms"
               className="text-muted-foreground transition-colors duration-300 font-medium"
             >
               Terms of Service
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
