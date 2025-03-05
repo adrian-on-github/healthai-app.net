@@ -1,7 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import apple from "@/public/app-store.png";
-import google from "@/public/google-play.png";
 
 export default function AppStoreButtons() {
   return (
@@ -15,7 +13,7 @@ export default function AppStoreButtons() {
       >
         <div className="flex items-center">
           <Image
-            src={apple}
+            src="/app-store.png"
             alt="Apple logo"
             width={32}
             height={32}
@@ -39,7 +37,7 @@ export default function AppStoreButtons() {
       >
         <div className="flex items-center">
           <Image
-            src={google}
+            src="/google-play.png"
             alt="Google Play logo"
             width={32}
             height={32}

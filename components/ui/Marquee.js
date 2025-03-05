@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Marquee } from "../magicui/marquee";
 import Image from "next/image";
+import default_av from "@/public/fallback.png";
 
 const reviews = [
   {
@@ -50,7 +51,7 @@ const reviews = [
 const firstRow = reviews.slice(0, reviews.length / 2);
 const secondRow = reviews.slice(reviews.length / 2);
 
-const ReviewCard = ({ img, name, username, body }) => {
+const ReviewCard = ({ img, username, body }) => {
   return (
     <figure
       className={cn(
@@ -65,7 +66,7 @@ const ReviewCard = ({ img, name, username, body }) => {
           width={32}
           height={32}
           alt="profile"
-          src={`${img}`}
+          src={img || default_av}
         />
         <div className="flex flex-col">
           <p className="text-sm font-medium dark:text-white/40">{username}</p>
@@ -84,7 +85,7 @@ export function MarqueeDemo() {
           <ReviewCard key={review.username} {...review} />
         ))}
       </Marquee>
-      <Marquee reverse pauseOnHover className="[--duration:20s]">
+      <Marquee pauseOnHover className="[--duration:20s]">
         {secondRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
         ))}

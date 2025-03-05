@@ -60,13 +60,13 @@ const HeroSection = () => {
                 not months.
               </span>
             </div>
-            <div className="flex justify-center lg:justify-start mt-2">
+            <div className="flex justify-center lg:justify-start mt-1 lg:mt-2">
               <div className="text-lg lg:text-2xl font-regular text-neutral-700 italic ">
                 {`  Improving your health wasn't easier`}{" "}
                 <span className="underline">until now.</span>
               </div>
             </div>
-            <div className="mt-3 flex-c">
+            <div className="mt-5 lg:mt-3 flex-c">
               <p className="text-neutral-700 text-lg font-medium">
                 {`Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna`}
                 <br />

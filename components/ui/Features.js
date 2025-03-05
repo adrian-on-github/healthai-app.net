@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <>
       <div className="flex-center">
-        <div className="mt-9">
+        <div className="mt-9 text-wrap lg:text-nowrap">
           <h1 className="text-4xl lg:text-5xl font-medium text-center">
             Most people chasing dreams.
           </h1>

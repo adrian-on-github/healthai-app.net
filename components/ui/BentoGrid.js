@@ -49,14 +49,14 @@ const features = [
 export default function BentoDemo() {
   return (
     <>
-      <div className="mt-20">
+      <div className="mt-18 lg:mt-22">
         <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap lg:text-nowrap">
           🚫Instead of trying to do it{" "}
           <span className="font-semibold italic">yourself</span>, make life{" "}
           <span className="font-semibold italic">easy</span> for yourself
         </h1>
       </div>
-      <BentoGrid className="pt-16 px-20">
+      <BentoGrid className="pt-16 px-10 lg:px-20">
         {features.map((feature, idx) => (
           <BentoCard key={idx} {...feature} />
         ))}
