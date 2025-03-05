@@ -1,7 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Marquee } from "../magicui/marquee";
 import Image from "next/image";
-import default_av from "@/public/fallback.png";
 
 const reviews = [
   {
@@ -61,12 +60,12 @@ const ReviewCard = ({ img, username, body }) => {
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <Image
+        <img
           className="rounded-full"
           width={32}
           height={32}
           alt="profile"
-          src={img || default_av}
+          src={img}
         />
         <div className="flex flex-col">
           <p className="text-sm font-medium dark:text-white/40">{username}</p>

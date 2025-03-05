@@ -56,7 +56,12 @@ export function AnimatedBeamMultipleOutputDemo({ className }) {
         </div>
         <div className="flex flex-col justify-center">
           <Circle ref={div6Ref} className="size-16">
-            <Image src={healthai} alt="healthai-icon" width={35} height={35} />
+            <Image
+              src="/healthai.png"
+              alt="healthai-icon"
+              width={35}
+              height={35}
+            />
           </Circle>
         </div>
         <div className="flex flex-col justify-center gap-2">

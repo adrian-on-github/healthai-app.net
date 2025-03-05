@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import icon from "@/public/icon.png";
 
 const Navbar = () => {
   return (
@@ -11,7 +10,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex flex-row">
               <Image
-                src={icon}
+                src="/icon-green.png"
                 width={40}
                 height={25}
                 alt="icon"
