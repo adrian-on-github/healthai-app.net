@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section className="pt-[6vh] px-8 pb-20 lg:px-20 lg:min-h-[80vh] min-h-[70vh]">
+      <section className="pt-[6vh] px-8 pb-20 lg:px-20 lg:min-h-[80vh]">
         <HeroSection />
       </section>
 

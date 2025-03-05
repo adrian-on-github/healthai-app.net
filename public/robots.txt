@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://healthai-app.net
+
+# Sitemaps
+Sitemap: https://healthai-app.net/sitemap.xml
