@@ -10,9 +10,7 @@ import {
   Heart,
   SquareActivity,
   Stethoscope,
-  Zap,
 } from "lucide-react";
-import healthai from "@/public/icon-black.png";
 
 const Circle = forwardRef(function Circle({ className, children }, ref) {
   return (
@@ -57,7 +55,7 @@ export function AnimatedBeamMultipleOutputDemo({ className }) {
         <div className="flex flex-col justify-center">
           <Circle ref={div6Ref} className="size-16">
             <Image
-              src="/healthai.png"
+              src="/icon-black.png"
               alt="healthai-icon"
               width={35}
               height={35}
