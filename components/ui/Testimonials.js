@@ -6,9 +6,9 @@ const Testimonials = () => {
   return (
     <>
       <div className="py-12">
-        <div className="mt-6 mb-14">
-          <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap lg:text-nowrap ">
-            {`✅You don't trust us? But over`}{" "}
+        <div className="mt-6 mb-14 mx-4">
+          <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap lg:text-nowrap">
+            {`✅ You don't trust us? But over`}{" "}
             <span className="italic underline">{`5000+`}</span> {`people does`}
           </h1>
           <Link

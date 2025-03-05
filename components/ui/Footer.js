@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="w-full py-8 bg-gray-50">
-      <div className="lg:mx-8 sm:">
+      <div className="lg:mx-8 mx-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div>
+          <div className="flex text-center lg:text-start items-center lg:items-center">
             <p className="text-sm text-muted-foreground">
               With ❤️ built by Adrian Hassan. &copy; {new Date().getFullYear()}{" "}
               HealthAI all rights reserved.

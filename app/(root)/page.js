@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section className="pt-[6vh] px-20 pb-20">
+      <section className="pt-[6vh] px-8 pb-20 lg:px-20">
         <HeroSection />
       </section>
       <FeaturedOn />

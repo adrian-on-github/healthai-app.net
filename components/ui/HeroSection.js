@@ -51,10 +51,10 @@ const HeroSection = () => {
   ];
   return (
     <>
-      <div className="flex justify-between">
-        <section className="flex-start lg:pt-16 pt-4">
+      <div className="flex">
+        <section className="flex-center lg:flex-start lg:pt-16 pt-4">
           <div className="flex-c text-center lg:text-start">
-            <div className="text-4xl lg:text-5xl font-semibold">
+            <div className="text-5xl font-semibold">
               Improve your health in weeks,{" "}
               <span className="text-red-500 font-semibold line-through italic">
                 not months.

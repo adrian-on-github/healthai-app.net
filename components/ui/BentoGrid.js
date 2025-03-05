@@ -22,7 +22,7 @@ const features = [
     description: "Health analyses, AI-doctor, Medical results and even more",
     className: "col-span-3 lg:col-span-2",
     background: (
-      <AnimatedBeamMultipleOutputDemo className="absolute right-1 top-2 h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+      <AnimatedBeamMultipleOutputDemo className="absolute right-0 lg:right-1 top-2 h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
     ),
   },
   {
@@ -49,14 +49,14 @@ const features = [
 export default function BentoDemo() {
   return (
     <>
-      <div className="mt-18 lg:mt-22">
+      <div className="mt-15 lg:mt-20">
         <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap lg:text-nowrap">
-          🚫Instead of trying to do it{" "}
+          🚫 Instead of trying to do it{" "}
           <span className="font-semibold italic">yourself</span>, make life{" "}
           <span className="font-semibold italic">easy</span> for yourself
         </h1>
       </div>
-      <BentoGrid className="pt-16 px-10 lg:px-20">
+      <BentoGrid className="pt-16 px-5 lg:px-20">
         {features.map((feature, idx) => (
           <BentoCard key={idx} {...feature} />
         ))}
