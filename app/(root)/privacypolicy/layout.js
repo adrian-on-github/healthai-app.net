@@ -8,6 +8,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://healthai-app.net/privacypolicy"),
   title: "Privacy Policy - HealthAI",
   description:
     "Read the Privacy Policy for using HealthAI, your AI-powered health assistant.",

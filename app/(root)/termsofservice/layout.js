@@ -8,6 +8,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://healthai-app.net/termsofservice"),
   title: "Terms of Service - HealthAI",
   description:
     "Read the terms and conditions for using HealthAI, your AI-powered health assistant.",

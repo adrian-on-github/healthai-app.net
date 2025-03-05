@@ -8,6 +8,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://healthai-app.net"),
   title: "HealthAI",
   description: "All-in-one health doctor.",
   keywords: [
