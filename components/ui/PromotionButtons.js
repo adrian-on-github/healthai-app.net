@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import apple from "@/app/assets/images/app-store.png";
-import google from "@/app/assets/images/google-play.png";
+import apple from "@/public/app-store.png";
+import google from "@/public/google-play.png";
 
 export default function AppStoreButtons() {
   return (

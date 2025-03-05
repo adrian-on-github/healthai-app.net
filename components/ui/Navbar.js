@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import icon from "@/app/assets/images/icon.png";
-import Link from "next/link";
+import icon from "@/public/icon.png";
 
 const Navbar = () => {
   return (

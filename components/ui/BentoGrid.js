@@ -56,7 +56,7 @@ export default function BentoDemo() {
           <span className="font-semibold italic">easy</span> for yourself
         </h1>
       </div>
-      <BentoGrid className="p-12">
+      <BentoGrid className="pt-16 px-20">
         {features.map((feature, idx) => (
           <BentoCard key={idx} {...feature} />
         ))}

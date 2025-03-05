@@ -12,7 +12,7 @@ import {
   Stethoscope,
   Zap,
 } from "lucide-react";
-import healthai from "@/app/assets/images/icon-black.png";
+import healthai from "@/public/icon-black.png";
 
 const Circle = forwardRef(function Circle({ className, children }, ref) {
   return (
