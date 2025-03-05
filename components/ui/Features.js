@@ -41,7 +41,7 @@ const Features = () => {
               <h1 className="text-3xl text-green-600 font-medium">
                 Your health with HealthAI
               </h1>
-              <div className="rounded-full p-1 items-center justify-center bg-green-400 h-7 mx-1 mt-0.4">
+              <div className="rounded-full p-1 items-center justify-center bg-green-400 h-7 mx-1 mt-0.5">
                 <Check className="text-green-600" size={20} />
               </div>
             </div>

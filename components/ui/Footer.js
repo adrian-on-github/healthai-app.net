@@ -11,7 +11,7 @@ export default function Footer() {
               HealthAI all rights reserved.
             </p>
           </div>
-          <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm mt-4 lg:mt-0">
+          <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm mt-6 lg:mt-0">
             <Link
               target="_blank"
               href="/privacypolicy"
