@@ -6,7 +6,7 @@ export default function AppStoreButtons() {
     <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md">
       {/* Apple App Store Button */}
       <Link
-        href="https://apps.apple.com/app/your-app-id"
+        href="https://apps.apple.com/de/app/health-ai/id6702024061"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center bg-black text-white rounded-lg px-4 py-2 transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary"
