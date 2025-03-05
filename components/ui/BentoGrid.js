@@ -51,9 +51,9 @@ export default function BentoDemo() {
     <>
       <div className="mt-15 lg:mt-20">
         <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap lg:text-nowrap">
-          🚫 Instead of trying to do it{" "}
-          <span className="font-semibold italic">yourself</span>, make life{" "}
-          <span className="font-semibold italic">easy</span> for yourself
+          🚫 Instead of trying to improve
+          <span className="font-semibold italic">yourself</span>, we do the work
+          for you
         </h1>
       </div>
       <BentoGrid className="pt-16 px-5 lg:px-20">

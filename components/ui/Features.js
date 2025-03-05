@@ -12,7 +12,7 @@ const Features = () => {
           </h1>
         </div>
       </div>
-      <div className="flex items-center justify-between w-full lg:px-72 mt-21 flex-col lg:flex-row">
+      <div className="flex items-center justify-between w-full lg:px-72 mt-20 flex-col lg:flex-row">
         <section className="border-3 border-red-400/50 rounded-3xl py-6 px-8 bg-red-500/30 lg:min-h-80 lg:min-w-140 my-4 lg:my-2 min-h-85 max-w-90">
           <div className="flex flex-col">
             <div className="flex flex-row gap-x-1 justify-start">

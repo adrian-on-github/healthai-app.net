@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function FeaturedOn() {
   return (
-    <section className="pt-12 w-full">
+    <section className="py-12 w-full">
       <div className="flex flex-row items-center justify-center text-center">
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16">
           <h3 className="text-lg font-medium text-muted-foreground">

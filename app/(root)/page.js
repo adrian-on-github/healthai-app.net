@@ -11,16 +11,17 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section className="pt-[6vh] px-8 pb-20 lg:px-20">
+      <section className="pt-[6vh] px-8 pb-20 lg:px-20 lg:min-h-[80vh] min-h-[70vh]">
         <HeroSection />
       </section>
-      <FeaturedOn />
+
       <Easy />
-      <div className="bg-gray-50/70 w-full min-h-160 pb-5">
+      <div className="bg-gray-50/70 w-full min-h-140 pb-5">
         <Features />
       </div>
       <BentoDemo />
       <Testimonials />
+      <FeaturedOn />
       <Footer />
     </>
   );

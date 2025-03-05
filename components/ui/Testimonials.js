@@ -9,16 +9,8 @@ const Testimonials = () => {
         <div className="mt-6 mb-14 mx-4">
           <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap lg:text-nowrap">
             {`✅ You don't trust us? But over`}{" "}
-            <span className="italic underline">{`5000+`}</span> {`people does`}
+            <span className="italic underline">{`5000+`}</span> {`people do`}
           </h1>
-          <Link
-            href="https://apps.apple.com/app/id6702024061?action=write-review"
-            target="_blank"
-          >
-            <p className="text-muted-foreground font-medium mt-3 text-center text-base lg:text-lg italic underline">
-              {`Already tried to find your own rating?`}
-            </p>
-          </Link>
         </div>
 
         <MarqueeDemo />
