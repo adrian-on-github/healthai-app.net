@@ -58,7 +58,7 @@ const HeroSection = () => {
                 <span className="underline">until now.</span>
               </div>
             </div>
-            <div className="mt-5 lg:mt-3 flex-c">
+            <div className="mt-7 lg:mt-3 flex-c">
               <p className="text-neutral-700 text-lg font-medium">
                 {`Welcome to Health AI  your go to health buddy, always here to help. Got a question about your health? Not sure what a symptom means? Just looking for some simple wellness tips? We’ve got your back.`}
 
