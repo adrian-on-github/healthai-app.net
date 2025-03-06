@@ -32,6 +32,14 @@ const HeroSection = () => {
       imageUrl: "https://avatars.githubusercontent.com/u/73161735?v=4",
       profileUrl: "https://github.com/tomonarifeehan",
     },
+    {
+      imageUrl: "https://avatars.githubusercontent.com/annqueenlol",
+      profileUrl: "https://github.com/annqueenlol",
+    },
+    {
+      imageUrl: "https://avatars.githubusercontent.com/abhisheknaiidu",
+      profileUrl: "https://github.com/abhisheknaiidu",
+    },
   ];
   return (
     <>
