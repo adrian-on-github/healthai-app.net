@@ -7,11 +7,9 @@ const Features = () => {
       <div className="flex-center">
         <div className="mt-9 text-wrap lg:text-nowrap flex flex-col lg:flex-row gap-0 lg:gap-1">
           <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap lg:text-nowrap">
-            Most people chasing dreams.{" "}
-          </h1>
-          <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap lg:text-nowrap">
-            The perfect health{" "}
-            <span className="italic font-semibold">should</span> be a dream
+            Dreams drive us forward, but{" "}
+            <span className="italic font-semibold">without health</span>, they
+            remain illusions.
           </h1>
         </div>
       </div>
