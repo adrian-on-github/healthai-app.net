@@ -10,6 +10,8 @@ import {
   Heart,
   SquareActivity,
   Stethoscope,
+  BriefcaseMedical,
+  SunMedium,
 } from "lucide-react";
 
 const Circle = forwardRef(function Circle({ className, children }, ref) {
@@ -37,6 +39,8 @@ export function AnimatedBeamMultipleOutputDemo({ className }) {
   const div5Ref = useRef(null);
   const div6Ref = useRef(null);
   const div7Ref = useRef(null);
+  const div8Ref = useRef(null);
+  const div9Ref = useRef(null);
 
   return (
     <div
@@ -47,9 +51,15 @@ export function AnimatedBeamMultipleOutputDemo({ className }) {
       ref={containerRef}
     >
       <div className="flex size-full max-w-lg flex-row items-stretch justify-between gap-10">
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center gap-y-3">
           <Circle ref={div7Ref}>
+            <BriefcaseMedical />
+          </Circle>
+          <Circle ref={div8Ref}>
             <Icons.openai />
+          </Circle>
+          <Circle ref={div9Ref}>
+            <Stethoscope />
           </Circle>
         </div>
         <div className="flex flex-col justify-center">
@@ -73,10 +83,10 @@ export function AnimatedBeamMultipleOutputDemo({ className }) {
             <BicepsFlexed />
           </Circle>
           <Circle ref={div4Ref}>
-            <Stethoscope />
+            <Apple />
           </Circle>
           <Circle ref={div5Ref}>
-            <Apple />
+            <SunMedium />
           </Circle>
         </div>
       </div>
@@ -114,8 +124,20 @@ export function AnimatedBeamMultipleOutputDemo({ className }) {
       />
       <AnimatedBeam
         containerRef={containerRef}
-        fromRef={div6Ref}
-        toRef={div7Ref}
+        fromRef={div7Ref}
+        toRef={div6Ref}
+        duration={3}
+      />
+      <AnimatedBeam
+        containerRef={containerRef}
+        fromRef={div8Ref}
+        toRef={div6Ref}
+        duration={3}
+      />
+      <AnimatedBeam
+        containerRef={containerRef}
+        fromRef={div9Ref}
+        toRef={div6Ref}
         duration={3}
       />
     </div>

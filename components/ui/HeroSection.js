@@ -60,9 +60,10 @@ const HeroSection = () => {
             </div>
             <div className="mt-5 lg:mt-3 flex-c">
               <p className="text-neutral-700 text-lg font-medium">
-                {`Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna`}
+                {`Welcome to Health AI  your go to health buddy, always here to help. Got a question about your health? Not sure what a symptom means? Just looking for some simple wellness tips? We’ve got your back.`}
+
                 <br />
-                {`aliquyam. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam`}
+                {`Taking care of your health shouldn’t be confusing or stressful. With Health AI, you’re never alone. We're here to make things simple clear and helpful  because you deserve to feel your best every day`}
               </p>
             </div>
 
