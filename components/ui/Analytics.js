@@ -40,7 +40,7 @@ export default function Analytics({ className }) {
   return (
     <ChartContainer
       config={chartConfig}
-      className={`min-h-[200px] w-full ${className}`}
+      className={`relative flex items-center justify-center overflow-hidden ${className}`}
     >
       <BarChart accessibilityLayer data={chartData}>
         <Bar dataKey="desktop" fill="var(--color-desktop)" radius={4} />

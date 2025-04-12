@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="bg-[#DFF0DF] pb-3 mx-3 rounded-3xl">
+      <div className="bg-[#DFF0DF] pb-3 rounded-3xl lg:mx-3">
         <section className="pt-[6vh] px-8 pb-20 lg:px-20 lg:min-h-[80vh]">
           <HeroSection />
         </section>

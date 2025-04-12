@@ -19,7 +19,7 @@ const AllFeaturesSection = () => {
 
         <div className="flex flex-col items-center py-20 gap-x-10">
           <div>
-            <Analytics className="relative h-[300px] w-full md:w-[700px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_7%,#000_100%)]" />
+            <Analytics className="relative h-[250px] w-[350px] lg:h-[300px] lg:w-[400px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_7%,#000_100%)]" />
           </div>
           <div className="flex justify-center items-center text-center">
             <p className="font-medium text-lg lg:px-40 px-4">

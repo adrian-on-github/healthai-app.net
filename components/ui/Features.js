@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <>
       <div className="flex-center">
-        <div className="mt-9 text-wrap flex flex-col lg:flex-row gap-0 lg:gap-1">
+        <div className="mt-14 text-wrap flex flex-col lg:flex-row gap-0 lg:gap-1">
           <h1 className="text-2xl lg:text-4xl font-medium text-center text-wrap mx-6">
             Everything starts with health – without it, progress slows down.
           </h1>
