@@ -33,7 +33,7 @@ const PrivacyPolicy = () => {
     <div className="bg-white min-h-screen">
       <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <p className="text-lg text-gray-500 font-medium">
+          <p className="text-lg text-neutral-700 font-medium">
             Last Updated: March 5, 2025
           </p>
           <h1 className="mt-2 text-4xl lg:text-5xl font-semibold text-gray-900 sm:text-5xl sm:tracking-tight">
@@ -41,7 +41,7 @@ const PrivacyPolicy = () => {
           </h1>
         </div>
 
-        <div className="prose prose-lg text-gray-500 mx-auto">
+        <div className="prose prose-lg text-neutral-700 mx-auto">
           <Section title="1. Introduction">
             <p>
               {`Welcome to Health Assistant. These Terms and Conditions ("the

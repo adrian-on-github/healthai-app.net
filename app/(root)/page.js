@@ -12,16 +12,15 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section className="pt-[6vh] px-8 pb-20 lg:px-20 lg:min-h-[80vh]">
-        <HeroSection />
-      </section>
-
-      <Easy />
-      <div className="bg-gray-50/70 w-full min-h-140 pt-8 pb-30 rounded-[3%]">
-        <Features />
-        <div className="mt-50">
-          <AllFeaturesSection />
-        </div>
+      <div className="bg-[#DFF0DF] pb-3 mx-3 rounded-3xl">
+        <section className="pt-[6vh] px-8 pb-20 lg:px-20 lg:min-h-[80vh]">
+          <HeroSection />
+        </section>
+        <Easy />
+      </div>
+      <Features />
+      <div className="bg-gray-50/30 w-full min-h-140 mt-18 py-2 pb-20 rounded-[3%]">
+        <AllFeaturesSection />
       </div>
 
       <Testimonials />

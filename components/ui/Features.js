@@ -12,7 +12,7 @@ const Features = () => {
         </div>
       </div>
       <div className="flex items-center justify-between w-full px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 mt-10 md:mt-20 flex-col md:flex-row gap-6 md:gap-8">
-        <section className="border-3 border-red-400/50 rounded-3xl py-6 px-6 sm:px-8 bg-red-500/30 w-full md:w-1/2 md:max-w-[500px] min-h-[33vh]">
+        <section className="border-2 border-gray-50/20 rounded-3xl py-6 px-6 sm:px-8 bg-red-500/30 w-full md:w-1/2 md:max-w-[500px] min-h-[33vh] shadow-black drop-shadow-md">
           <div className="flex flex-col">
             <div className="flex flex-row gap-x-1 justify-start">
               <h1 className="text-3xl text-red-500 font-medium">
@@ -34,13 +34,13 @@ const Features = () => {
             </ul>
           </div>
         </section>
-        <section className="border-3 border-green-400/50 rounded-3xl py-6 px-6 sm:px-8 bg-green-500/30 w-full md:w-1/2 md:max-w-[500px] min-h-[33vh]">
+        <section className="border-2 border-gray-50/20 rounded-3xl py-6 px-6 sm:px-8 bg-green-500/30 w-full md:w-1/2 md:max-w-[500px] min-h-[33vh] shadow-black drop-shadow-md">
           <div className="flex flex-col">
             <div className="flex flex-row gap-x-1 justify-start">
-              <h1 className="text-3xl text-green-600 font-medium">
-                Your health with HealthAI
+              <h1 className="text-3xl text-green-500 font-medium">
+                Your health without HealthAI
               </h1>
-              <div className="rounded-full p-1 items-center justify-center bg-green-400 h-7 mx-1 mt-0.5">
+              <div className="rounded-full p-1 items-center justify-center bg-green-300 h-7 mx-1 mt-0.5">
                 <Check className="text-green-600" size={20} />
               </div>
             </div>

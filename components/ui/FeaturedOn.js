@@ -6,9 +6,7 @@ export default function FeaturedOn() {
     <section className="py-12 w-full">
       <div className="flex flex-row items-center justify-center text-center">
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16">
-          <h3 className="text-lg font-medium text-muted-foreground">
-            Featured on
-          </h3>
+          <h3 className="text-lg font-medium text-neutral-700">Featured on</h3>
           <Link
             href="https://twitter.com"
             target="_blank"
@@ -16,7 +14,7 @@ export default function FeaturedOn() {
             className="group transition-transform duration-300 hover:scale-110"
           >
             <svg
-              className="h-8 w-8 text-muted-foreground transition-colors duration-300 group-hover:text-black dark:group-hover:text-white"
+              className="h-8 w-8 text-neutral-700 transition-colors duration-300 group-hover:text-black dark:group-hover:text-white"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +34,7 @@ export default function FeaturedOn() {
             className="group transition-transform duration-300 hover:scale-110"
           >
             <svg
-              className="h-8 w-8 text-muted-foreground transition-colors duration-300 group-hover:text-[#E4405F]"
+              className="h-8 w-8 text-neutral-700 transition-colors duration-300 group-hover:text-[#E4405F]"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +54,7 @@ export default function FeaturedOn() {
             className="group transition-transform duration-300 hover:scale-110"
           >
             <svg
-              className="h-8 w-8 text-muted-foreground transition-colors duration-300 group-hover:text-[#DA552F]"
+              className="h-8 w-8 text-neutral-700 transition-colors duration-300 group-hover:text-[#DA552F]"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

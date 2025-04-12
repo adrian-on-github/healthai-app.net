@@ -61,7 +61,7 @@ const AllFeaturesSection = () => {
       {/* Notifications */}
       <div className="flex p-8 flex-col items-start">
         <div className="flex flex-row items-center justify-center">
-          <span className="w-8 bg-amber-500/40 h-3 rounded-3xl"></span>
+          <span className="w-8 bg-blue-500/40 h-3 rounded-3xl"></span>
           <div className="flex justify-center items-center flex-col">
             <h1 className="text-2xl lg:text-4xl font-medium mx-6 text-wrap">
               Notifications <span className="text-sm">(Soon)</span>

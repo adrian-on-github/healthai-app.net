@@ -110,7 +110,7 @@ export const TweetHeader = ({ tweet }) => (
             href={tweet.user.url}
             target="_blank"
             rel="noreferrer"
-            className="text-sm text-gray-500 transition-all duration-75"
+            className="text-sm text-neutral-700 transition-all duration-75"
           >
             @{truncate(tweet.user.screen_name, 16)}
           </a>
@@ -138,7 +138,7 @@ export const TweetBody = ({ tweet }) => (
               href={entity.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-normal text-gray-500"
+              className="text-sm font-normal text-neutral-700"
             >
               <span>{entity.text}</span>
             </a>
