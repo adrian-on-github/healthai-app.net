@@ -6,6 +6,7 @@ import Easy from "@/components/ui/Easy";
 import BentoDemo from "@/components/ui/BentoGrid";
 import Footer from "@/components/ui/Footer";
 import Testimonials from "@/components/ui/Testimonials";
+import AllFeaturesSection from "@/components/ui/AllFeaturesSection";
 
 export default function Home() {
   return (
@@ -16,12 +17,15 @@ export default function Home() {
       </section>
 
       <Easy />
-      <div className="bg-gray-50/70 w-full min-h-140 pb-5">
+      <div className="bg-gray-50/70 w-full min-h-140 pt-8 pb-30 rounded-[3%]">
         <Features />
+        <div className="mt-50">
+          <AllFeaturesSection />
+        </div>
       </div>
-      <BentoDemo />
+
       <Testimonials />
-      <FeaturedOn />
+      {/* <FeaturedOn /> */}
       <Footer />
     </>
   );

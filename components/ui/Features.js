@@ -6,10 +6,8 @@ const Features = () => {
     <>
       <div className="flex-center">
         <div className="mt-9 text-wrap flex flex-col lg:flex-row gap-0 lg:gap-1">
-          <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap">
-            Dreams drive us forward, but{" "}
-            <span className="italic font-semibold">without health</span>, they
-            remain illusions.
+          <h1 className="text-2xl lg:text-4xl font-medium text-center text-wrap mx-6">
+            Everything starts with health – without it, progress slows down.
           </h1>
         </div>
       </div>
@@ -66,42 +64,46 @@ const Features = () => {
 const pro = [
   {
     id: 0,
-    text: "Reminder for more energy",
+    text: "Better overview of personal symptoms",
   },
   {
     id: 1,
-    text: "Lots of daily activity",
+    text: "Early recognition of patterns or changes",
   },
   {
     id: 2,
-    text: "Fewer health issues",
+    text: "Motivation for regular self-checks",
   },
   {
     id: 3,
-    text: "Analyse your health anytime",
+    text: "Easier communication with doctors",
+  },
+  {
+    id: 4,
+    text: "Track long-term health developments",
   },
 ];
 
 const contra = [
   {
     id: 0,
-    text: "Low energy",
+    text: "No clear health overview",
   },
   {
     id: 1,
-    text: "Lack of activity",
+    text: "Harder to notice small changes over time",
   },
   {
     id: 2,
-    text: "Mental fog and body stress",
+    text: "Less motivation to reflect on symptoms",
   },
   {
     id: 3,
-    text: "Frequent health problems",
+    text: "Doctor visits feel less prepared",
   },
   {
     id: 4,
-    text: "Low confidence",
+    text: "Health trends easily forgotten",
   },
 ];
 

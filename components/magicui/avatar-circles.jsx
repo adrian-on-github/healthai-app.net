@@ -1,18 +1,16 @@
-/* eslint-disable @next/next/no-img-element */
-"use client";
 import { cn } from "@/lib/utils";
 
-export const AvatarCircles = ({ className, avatarUrls }) => {
+export const AvatarCircles = ({ className, avatarImages }) => {
   return (
     <div className={cn("z-10 flex -space-x-6 rtl:space-x-reverse", className)}>
-      {avatarUrls.map((url, index) => (
+      {avatarImages.map((image, index) => (
         <img
           key={index}
-          className="h-12 w-12 rounded-full border-2 border-gray-800 bg-white"
-          src={url.imageUrl}
-          width={120}
-          height={120}
-          alt={`Avatar ${index + 1}`}
+          className="h-14 w-14 rounded-full border-3 border-white"
+          src={image.image}
+          width={40}
+          height={40}
+          alt={`Testimonial ${index + 1}`}
         />
       ))}
     </div>

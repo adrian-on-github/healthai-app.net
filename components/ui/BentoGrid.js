@@ -51,13 +51,7 @@ const features = [
 export default function BentoDemo() {
   return (
     <>
-      <div className="mt-15 lg:mt-20">
-        <h1 className="text-4xl lg:text-5xl font-medium text-center text-wrap mx-4">
-          🚫 Instead of trying to improve{" "}
-          <span className="font-semibold italic">yourself</span>, we do the work
-          for you
-        </h1>
-      </div>
+      <div className="mt-15 lg:mt-20"></div>
       <BentoGrid className="pt-16 px-5 lg:px-20">
         {features.map((feature, idx) => (
           <BentoCard key={idx} {...feature} />
