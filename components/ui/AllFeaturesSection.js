@@ -76,9 +76,9 @@ const AllFeaturesSection = () => {
           <div className="flex justify-center items-center text-center lg:px-40 px-4">
             <p className="font-medium text-base lg:text-lg">
               HealthAI sends timely notifications to keep you on track with your
-              health goals. Whether it's a reminder to check your symptoms, stay
-              active, or follow your wellness plan, these notifications ensure
-              you never miss a step in your health journey.
+              health goals. Whether it&apos;s a a reminder to check your
+              symptoms, stay active, or follow your wellness plan, these
+              notifications ensure you never miss a step in your health journey.
             </p>
           </div>
         </div>
