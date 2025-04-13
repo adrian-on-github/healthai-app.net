@@ -38,7 +38,7 @@ const Features = () => {
           <div className="flex flex-col">
             <div className="flex flex-row gap-x-1 justify-start">
               <h1 className="text-3xl text-green-500 font-medium">
-                Your health without HealthAI
+                Your health with HealthAI
               </h1>
               <div className="rounded-full p-1 items-center justify-center bg-green-300 h-7 mx-1 mt-0.5">
                 <Check className="text-green-600" size={20} />
