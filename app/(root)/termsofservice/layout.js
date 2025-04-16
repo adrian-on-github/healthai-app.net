@@ -1,7 +1,7 @@
 import "@/app/globals.css";
 
 export const metadata = {
-  metadataBase: new URL("https://healthai-app.net/terms"),
+  metadataBase: new URL("https://healthai-app.net/termsofservice"),
   title: "Terms of Service - HealthAI",
   description:
     "Read the terms and conditions for using HealthAI, your AI-powered health assistant.",
@@ -9,7 +9,7 @@ export const metadata = {
     title: "Terms of Service - HealthAI",
     description:
       "Read the terms and conditions for using HealthAI, your AI-powered health assistant.",
-    url: "https://healthai-app.net/terms",
+    url: "https://healthai-app.net/termsofservice",
     siteName: "HealthAI",
     type: "article",
   },

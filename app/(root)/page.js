@@ -19,7 +19,7 @@ export default function Home() {
         <Easy />
       </div>
       <Features />
-      <div className="bg-gray-50 w-full min-h-140 mt-18 py-2 pb-20 rounded-3xl lg:mx-3">
+      <div className="bg-gray-50 min-h-140 mt-18 py-2 pb-20 rounded-3xl lg:mx-3">
         <AllFeaturesSection />
       </div>
 

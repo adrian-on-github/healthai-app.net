@@ -23,9 +23,9 @@ const AllFeaturesSection = () => {
           </div>
           <div className="flex justify-center items-center text-center">
             <p className="font-medium text-lg lg:px-40 px-4">
-              HealthAI helps you better understand your well-being by analyzing
-              your symptoms and daily health inputs over time. Instead of
-              isolated snapshots, you gain a clearer picture of your overall
+              HealthAI helps you to better understand your well-being by
+              analyzing your symptoms and daily health inputs over time. Instead
+              of isolated snapshots, you gain a clearer picture of your overall
               health development.
             </p>
           </div>
